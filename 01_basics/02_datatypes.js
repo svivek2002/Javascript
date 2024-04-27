@@ -6,6 +6,7 @@ let name = "vivek"
 let age = 18
 let isLoggedIn = false
 
+
 // number => 2 ^ 53
 // BigInt
 // String => ""
