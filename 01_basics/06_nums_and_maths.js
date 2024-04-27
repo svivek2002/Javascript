@@ -15,6 +15,7 @@ const hundreds = 10000000
 console.log(hundreds.toLocaleString()) // changes to int. num system 
 console.log(hundreds.toLocaleString('en-IN')) // changes to int. num system 
 
+
 //      +++++++++++++ Maths ++++++++++++++++++++++++++++        //
 
 
