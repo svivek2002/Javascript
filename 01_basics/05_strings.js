@@ -7,6 +7,7 @@ console.log(name + "'s repocount : " + repoCount ) // this is outdated
 // convenient way
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
+
 const gameName = new String('vivek       Singh') // present as key value pair and various of strings are present
 console.log(typeof gameName); // object
 console.log(gameName[0]); // v  or console.log(gameName[0])
