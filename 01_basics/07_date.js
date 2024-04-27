@@ -22,6 +22,7 @@ console.log(myCreatedDate.getTime()); // miliseconds
 
 console.log(Math.floor(Date.now() / 1000)); // msecs into secs
 
+
 console.log(myDate.toLocaleDateString('default', {
     weekday : "long"
 }))
