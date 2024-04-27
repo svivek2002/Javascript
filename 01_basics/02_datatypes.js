@@ -1,6 +1,6 @@
 "use strict"; //treat all JS code as newer version
 
-// alert(3+2) // will not run here, it needs JS engine, and we are node js not browser
+// alert(3+2) // will not run here, it needs JS engine, and we are using node js not browser
 
 let name = "vivek"
 let age = 18
@@ -35,6 +35,7 @@ console.log(typeof undefined); // undefined
 const id = Symbol('123') // used for uniqueness
 const anotherId = Symbol('123')
 console.log(id === anotherId) // false
+
 // Non-Primitives or Reference type
 
 // Array, objects, Functions

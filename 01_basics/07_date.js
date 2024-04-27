@@ -8,8 +8,7 @@ console.log(myDate.toLocaleString());
 console.log(myDate.toLocaleTimeString());
 console.log(myDate.toTimeString());
 console.log(myDate.toUTCString());
-console.log(myDate.getTimezoneOffset());
-
+console.log(myDate.getTimezoneOffset()); // 0
 let myCreatedDate = new Date(2024,3,21) // month starts from 0 -> 3 means april
 console.log(myCreatedDate.toDateString());
 

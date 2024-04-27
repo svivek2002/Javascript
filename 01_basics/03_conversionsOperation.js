@@ -6,7 +6,7 @@ let score5 = true
 
 // const {score} = req.body
 
-console.log(typeof score);
+console.log(typeof score); // number
 console.log(typeof score2); // string
 
 // let valueInNumber = parseInt(score2)
@@ -21,7 +21,7 @@ let newScore4 = Number(score4)
 console.log(newScore4); // gives 0
 
 let newScore5 = Number(score5)
-console.log(newScore5);
+console.log(newScore5); // 1
 
 let isLoggedIn = 1
 console.log(Boolean (isLoggedIn)); // true
