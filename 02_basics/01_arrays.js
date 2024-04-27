@@ -11,7 +11,8 @@
             ** A shallow copy of an object is a copy whose properties share the same references (point to the same underlying values) as those of the source object from which the copy was made. As a result, when you change either the source or the copy, you may also cause the other object to change too. That behavior contrasts with the behavior of a deep copy, in which the source and copy are completely independent.
 
 */
-// **************************************************     Array Declaration     ***********************************************************
+
+// ************************************************    Array Declaration   *******************************************************
 
 const fruits = []; // declare empty
 fruits.push("banana", "apple", "peach"); // 
