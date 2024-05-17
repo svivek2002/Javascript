@@ -32,4 +32,43 @@ console.log(obj3);
 console.log(Object.keys(User)); // array of keys
 console.log(Object.values(User)); // array of values
 console.log(Object.entries(User)); // array of [key - values]
-console.log(User.hasOwnProperty('isLoggedIn'))
+console.log(User.hasOwnProperty('isLoggedIn')) // true as isLoggedIn property is present
+
+
+// ++++++++++++++++++++++++++    object Destructuring       +++++++++++++++++++++++++++++++++++++
+
+const course = {
+    price : 999,
+    courseInstructor : "hitesh"
+}
+
+// course.courseInstructor
+const {courseInstructor : instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// In React
+
+// const navbar = ({company}) => { // destructuring
+
+// }
+// navbar(company = "hitesh")
+
+// json
+
+// json in form of objects
+
+// {
+//     "name" : "vivek",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+
+// in form of arrays
+ 
+// [
+//     {},
+//     {},
+//     {}
+// ]
