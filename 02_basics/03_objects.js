@@ -93,3 +93,4 @@ JsUser.greetingTwo = function(){
 console.log(JsUser.greeting); // [Function (anonymous)] --> means function is not executed but returns its reference
 console.log(JsUser.greeting()); // prints, also returns undefined --> In a function, this refers to the global object.
 console.log(JsUser.greetingTwo()) // In a function, in strict mode, this is undefined.
+
